@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Manage" />
+
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+
+        </menu>
+
+
+    </item>
+
+
+</menu>
