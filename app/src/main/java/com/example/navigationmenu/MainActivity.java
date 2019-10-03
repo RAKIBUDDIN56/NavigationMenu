@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         toggle.syncState();
 
     }
-
+	
+    // Simple Modification by NA
     @Override
     public void onBackPressed() {
         if(drawer.isDrawerOpen(GravityCompat.START)){
